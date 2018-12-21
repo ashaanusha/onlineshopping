@@ -2,8 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-
     <RelativeLayout
         android:id="@+id/home_banner_frame_layout"
         android:layout_width="match_parent"
@@ -29,14 +27,5 @@
         </LinearLayout>
 
     </RelativeLayout>
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler1"
-        android:layout_below="@+id/home_banner_frame_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </android.support.v7.widget.RecyclerView>
-
 
 </RelativeLayout>

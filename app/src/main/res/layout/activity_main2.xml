@@ -20,6 +20,7 @@
         android:gravity="center"/>
 
     <Button
+        android:id="@+id/signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -30,6 +31,7 @@
         android:textColor="#FFFFFF" />
 
     <Button
+        android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
