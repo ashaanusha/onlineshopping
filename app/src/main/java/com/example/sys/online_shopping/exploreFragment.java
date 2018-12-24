@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 
 import java.util.TimerTask;
 
-public class Fragment1 extends Fragment {
+public class exploreFragment extends Fragment {
     private ViewPager introPager;
     private LinearLayout sliderDotspanel;
     private int dotscount;
@@ -24,15 +24,15 @@ public class Fragment1 extends Fragment {
     RecyclerView recyclerView;
     int [] images =  {R.drawable.pf2,R.drawable.perfume2,R.drawable.femalepf1,R.drawable.casualpf,R.drawable.perfume};
     ArrayAdapter<String> adapter;
-    RecyclerAdapter recycler;
+    RecyclerAdapter6activity recycler;
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_main5, container, false);
         introPager =view.findViewById( R.id.home_banner_pager );
         sliderDotspanel =view.findViewById( R.id.home_banner_pager_indicator );
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter( getActivity() );
+        ViewPagerAdapter6 viewPagerAdapter = new ViewPagerAdapter6( getActivity() );
 RecyclerView recyclerView1=view.findViewById( R.id.recycler1 );
 recyclerView1.setLayoutManager( new GridLayoutManager( getActivity(),2 ) );
-RecyclerAdapter recyclerAdapter=new RecyclerAdapter(getActivity(),images);
+RecyclerAdapter6activity recyclerAdapter=new RecyclerAdapter6activity(getActivity(),images);
 recyclerView1.setAdapter( recyclerAdapter );
         introPager.setAdapter( viewPagerAdapter );
 
@@ -64,7 +64,7 @@ recyclerView1.setAdapter( recyclerAdapter );
             }
 
         }
-
+getActivity().setTitle( "Exotic Perfumes" );
         return view;
     }
 }

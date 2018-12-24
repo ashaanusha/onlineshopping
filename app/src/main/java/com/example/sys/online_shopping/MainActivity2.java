@@ -15,7 +15,7 @@ public class MainActivity2 extends AppCompatActivity {
         signin.setOnClickListener(new View.OnClickListener()
         {  @Override
         public void onClick(View v) {
-            Intent i=new Intent(MainActivity2.this,MainActivity3.class);
+            Intent i=new Intent(MainActivity2.this,page3activity.class);
             startActivity(i);
         }
         });
@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener()
         {  @Override
         public void onClick(View v) {
-            Intent i=new Intent(MainActivity2.this,MainActivity4.class);
+            Intent i=new Intent(MainActivity2.this,page4activity.class);
             startActivity(i);
         }
         });

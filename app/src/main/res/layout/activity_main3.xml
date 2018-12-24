@@ -47,7 +47,7 @@
        android:background="#6B8E23"
        android:text="SIGN IN"
        android:layout_marginTop="10dp"
-       android:textColor="#FFFFFF"/>
+       />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             android:background="#6B8E23"
             android:text="SIGN UP"
             android:layout_marginTop="10dp"
-            android:textColor="#FFFFFF"/>
+          />
 
     </LinearLayout>
 </RelativeLayout>

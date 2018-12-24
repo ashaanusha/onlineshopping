@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main6Activity"
+            android:name=".page5activity"
             android:label="@string/title_activity_main6"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity4" />
-        <activity android:name=".Main7Activity"></activity>
+        <activity android:name=".page3activity" />
+        <activity android:name=".page4activity" />
+        <activity android:name=".walletactivity"></activity>
     </application>
 
 </manifest>

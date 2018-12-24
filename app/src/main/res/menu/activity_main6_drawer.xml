@@ -9,17 +9,37 @@
             android:icon="@drawable/ic_explore_black_24dp"
             android:title="Explore" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_categories"
             android:icon="@drawable/ic_folder_black_24dp"
             android:title="All Categories" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_bestsellers"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Best sellers" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/ic_featured_play_list_black_24dp"
+            android:title="promotions" />
+        <item
+            android:id="@+id/nav_notifications"
             android:icon="@drawable/ic_menu_manage"
             android:title="Notifications" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_Order"
+            android:icon="@drawable/ic_queue_black_24dp"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="Deals" />
     </group>
     
 

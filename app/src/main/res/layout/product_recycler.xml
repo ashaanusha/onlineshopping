@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/perfume"
+        android:padding="10dp"
+        android:scaleType="fitXY"/>
+
+<Button
+    android:id="@+id/btn"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:text="For Men"
+    android:paddingRight="40dp"
+    android:textColor="#000000"
+
+   />
+</LinearLayout>

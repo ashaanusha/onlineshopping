@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity3 extends AppCompatActivity {
+public class page3activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
@@ -16,7 +16,7 @@ public class MainActivity3 extends AppCompatActivity {
             login.setOnClickListener(new View.OnClickListener()
             {  @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity3.this,Main6Activity.class);
+                Intent i=new Intent(page3activity.this,page5activity.class);
                 startActivity(i);
             }
             });
@@ -24,7 +24,7 @@ public class MainActivity3 extends AppCompatActivity {
             signup.setOnClickListener(new View.OnClickListener()
             {  @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity3.this,MainActivity4.class);
+                Intent i=new Intent(page3activity.this,page4activity.class);
                 startActivity(i);
             }
             });

@@ -11,14 +11,14 @@ import android.widget.ImageView;
 
 
 
-public class ViewPagerAdapter extends PagerAdapter {
+public class ViewPagerAdapter6 extends PagerAdapter {
 
     private Context context;
     private LayoutInflater layoutInflater;
     private Integer[] images = {R.drawable.manpf1, R.drawable.femalepf1,
             R.drawable.casualpf};
 
-    public ViewPagerAdapter(Context context) {
+    public ViewPagerAdapter6(Context context) {
         this.context = context;
     }
 

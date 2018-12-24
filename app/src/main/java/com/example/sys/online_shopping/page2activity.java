@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 
 import java.util.TimerTask;
 
-public class Main2Activity extends AppCompatActivity {
+public class page2activity extends AppCompatActivity {
     private ViewPager introPager;
     private LinearLayout sliderDotspanel;
 
@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
         //slider
         introPager = findViewById( R.id.home_banner_pager );
         sliderDotspanel = findViewById( R.id.home_banner_pager_indicator );
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter( this );
+        ViewPagerAdapter6 viewPagerAdapter = new ViewPagerAdapter6( this );
 
         introPager.setAdapter( viewPagerAdapter );
 

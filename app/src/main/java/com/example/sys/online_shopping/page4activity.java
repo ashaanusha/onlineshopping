@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity4 extends AppCompatActivity {
+public class page4activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
@@ -16,7 +16,7 @@ public class MainActivity4 extends AppCompatActivity {
             signup.setOnClickListener( new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent i = new Intent( MainActivity4.this, MainActivity.class );
+                    Intent i = new Intent( page4activity.this, MainActivity.class );
                     startActivity( i );
                 }
             } );

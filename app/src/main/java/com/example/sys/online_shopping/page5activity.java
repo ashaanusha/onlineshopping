@@ -1,13 +1,8 @@
 package com.example.sys.online_shopping;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -17,7 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Main6Activity extends AppCompatActivity
+public class page5activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -26,9 +21,8 @@ public class Main6Activity extends AppCompatActivity
         setContentView( R.layout.activity_main6 );
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar( toolbar );
-        toolbar.setTitle("wallet");
 
-        Fragment1 f1=new Fragment1();
+        exploreFragment f1=new exploreFragment();
         FragmentManager fm=getSupportFragmentManager();
         FragmentTransaction ft=fm.beginTransaction();
         ft.replace(R.id.frame, f1);
@@ -69,7 +63,7 @@ public class Main6Activity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.cart) {
             return true;
         }
 
@@ -83,17 +77,42 @@ public class Main6Activity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_explore) {
-            Fragment1 f1=new Fragment1();
+            exploreFragment f1=new exploreFragment();
             FragmentManager fm=getSupportFragmentManager();
             FragmentTransaction ft=fm.beginTransaction();
             ft.replace(R.id.frame, f1);
             ft.commit();
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_categories) {
+            cateogryfragment1 f2=new cateogryfragment1();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.frame, f2);
+            ft.commit();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_bestsellers) {
+            bestsellerfragment f3=new bestsellerfragment();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.frame, f3);
+            ft.commit();
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_promotions) {
+            discountfragment f4=new discountfragment();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.frame, f4);
+            ft.commit();
+
+        }else if (id == R.id.nav_notifications) {
+
+        }else if (id == R.id.nav_profile) {
+
+        }else if (id == R.id.nav_Order) {
+
+        }else if (id == R.id.nav_wallet) {
+
+        }else if (id == R.id.nav_deals) {
 
         }
 
