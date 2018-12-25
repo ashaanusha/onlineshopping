@@ -1,5 +1,6 @@
 package com.example.sys.online_shopping;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -105,14 +106,33 @@ public class page5activity extends AppCompatActivity
             ft.commit();
 
         }else if (id == R.id.nav_notifications) {
+            NotificationsFragment f5=new NotificationsFragment();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.frame, f5);
+            ft.commit();
+
 
         }else if (id == R.id.nav_profile) {
 
         }else if (id == R.id.nav_Order) {
+            Orderfragment f7=new Orderfragment();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.frame, f7);
+            ft.commit();
 
         }else if (id == R.id.nav_wallet) {
+            startActivity(new Intent(page5activity.this, walletactivity.class));
 
         }else if (id == R.id.nav_deals) {
+            Favouritefragment f9=new Favouritefragment();
+            FragmentManager fm=getSupportFragmentManager();
+            FragmentTransaction ft=fm.beginTransaction();
+            ft.replace(R.id.frame, f9);
+            ft.commit();
+
+
 
         }
 

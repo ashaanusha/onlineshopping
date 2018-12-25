@@ -16,7 +16,7 @@ import android.widget.ArrayAdapter;
 public class bestsellerfragment extends Fragment {
 
     RecyclerView recyclerView;
-    int[] images = {R.drawable.casualpf, R.drawable.pf5, R.drawable.femalepf1,R.drawable.perfume2,R.drawable.manpf1,R.drawable.pf7};
+    int[] images = {R.drawable.casualpf, R.drawable.pf5, R.drawable.femalepf1,R.drawable.perfume2,R.drawable.pf4,R.drawable.pf7};
 
     ArrayAdapter<String> adapter;
     Recycleradapter_product recycler;
