@@ -23,7 +23,10 @@
         <activity android:name=".MainActivity2" />
         <activity android:name=".page3activity" />
         <activity android:name=".page4activity" />
+        <activity android:name="ProfileActivity"/>
         <activity android:name=".walletactivity"></activity>
+        <activity android:name=".Page7activityfragment"></activity>
+        <activity android:name=".Cartactivity"></activity>
     </application>
 
 </manifest>

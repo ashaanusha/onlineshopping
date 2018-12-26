@@ -13,7 +13,7 @@ import android.widget.ArrayAdapter;
 
 public class Favouritefragment extends Fragment {
     private RecyclerView recyclerView;
-    String[] title={"In process","completed","In process","In process"};
+    String[] title={"DG the one","White lane","Versace man","Fine cologne"};
     String[] dollar={"$ 12","$ 13","$ 14","$ 50"};
     private  Integer[] Images={R.drawable.pf2,R.drawable.db_perfume,R.drawable.pf4,R.drawable.perfume2};
     private  Integer[] Images1={R.drawable.ic_close_black_24dp,R.drawable.ic_close_black_24dp,R.drawable.ic_close_black_24dp,R.drawable.ic_close_black_24dp};

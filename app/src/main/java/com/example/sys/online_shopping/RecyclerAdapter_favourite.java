@@ -2,14 +2,12 @@ package com.example.sys.online_shopping;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Paint;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.QuickContactBadge;
 import android.widget.TextView;
 
 public class RecyclerAdapter_favourite  extends RecyclerView.Adapter<RecyclerAdapter_favourite.ViewHolderClass> {
@@ -49,6 +47,8 @@ public class RecyclerAdapter_favourite  extends RecyclerView.Adapter<RecyclerAda
             public void onClick(View v) {
                 /*Intent in = new Intent(context, NewPage.class);
                 context.startActivity(in);*/
+                Intent i=new Intent(context,Page7activityfragment.class);
+                context.startActivity( i );
             }
         });
       }

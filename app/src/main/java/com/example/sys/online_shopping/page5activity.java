@@ -36,6 +36,7 @@ public class page5activity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById( R.id.nav_view );
         navigationView.setNavigationItemSelectedListener( this );
+
     }
 
 
@@ -114,6 +115,8 @@ public class page5activity extends AppCompatActivity
 
 
         }else if (id == R.id.nav_profile) {
+            startActivity(new Intent(page5activity.this, ProfileActivity.class));
+
 
         }else if (id == R.id.nav_Order) {
             Orderfragment f7=new Orderfragment();
