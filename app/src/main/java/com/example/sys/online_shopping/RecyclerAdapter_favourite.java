@@ -48,6 +48,7 @@ public class RecyclerAdapter_favourite  extends RecyclerView.Adapter<RecyclerAda
                 /*Intent in = new Intent(context, NewPage.class);
                 context.startActivity(in);*/
                 Intent i=new Intent(context,Page7activityfragment.class);
+                i.putExtra( "image",images.toString() );
                 context.startActivity( i );
             }
         });

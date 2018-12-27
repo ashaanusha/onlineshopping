@@ -23,7 +23,7 @@ public class page5activity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar( toolbar );
 
-        exploreFragment f1=new exploreFragment();
+        Tab_fragment f1=new Tab_fragment();
         FragmentManager fm=getSupportFragmentManager();
         FragmentTransaction ft=fm.beginTransaction();
         ft.replace(R.id.frame, f1);
