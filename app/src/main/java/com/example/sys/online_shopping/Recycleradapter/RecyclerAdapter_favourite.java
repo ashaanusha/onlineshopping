@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.Recycleradapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.fragment.Page7activityfragment;
 
 public class RecyclerAdapter_favourite  extends RecyclerView.Adapter<RecyclerAdapter_favourite.ViewHolderClass> {
 
@@ -48,7 +51,6 @@ public class RecyclerAdapter_favourite  extends RecyclerView.Adapter<RecyclerAda
                 /*Intent in = new Intent(context, NewPage.class);
                 context.startActivity(in);*/
                 Intent i=new Intent(context,Page7activityfragment.class);
-                i.putExtra( "image",images.toString() );
                 context.startActivity( i );
             }
         });

@@ -1,8 +1,11 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.Recycleradapter;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.example.sys.online_shopping.fragment.Page7activityfragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,6 +37,7 @@ public class TabPagerAdapter extends FragmentStatePagerAdapter {
         mFragmentList.add(fragment);
         mFragmentTitleList.add(title);
     }
+
 
     @Override
     public int getItemPosition(Object object) {

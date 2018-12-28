@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.HorizontalScrollView;
+
+import com.example.sys.online_shopping.Activity.Cartactivity;
+import com.example.sys.online_shopping.Recycleradapter.Page7Recycleradapter;
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.Recycleradapter.Recycleradapter_product;
 
 public class Page7activityfragment extends AppCompatActivity {
     RecyclerView recyclerView;

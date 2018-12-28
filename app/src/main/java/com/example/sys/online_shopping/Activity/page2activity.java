@@ -1,10 +1,13 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.Activity;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.Recycleradapter.ViewPagerAdapter6;
 
 import java.util.TimerTask;
 

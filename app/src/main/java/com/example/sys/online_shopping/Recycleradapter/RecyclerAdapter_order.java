@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.Recycleradapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.sys.online_shopping.R;
 
 public class RecyclerAdapter_order extends RecyclerView.Adapter<RecyclerAdapter_order.ViewHolderClass> {
 
@@ -27,7 +29,7 @@ public class RecyclerAdapter_order extends RecyclerView.Adapter<RecyclerAdapter_
         @NonNull
         @Override
         public RecyclerAdapter_order.ViewHolderClass onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(context).inflate(R.layout.recycler_order, viewGroup, false);
+        View view = LayoutInflater.from(context).inflate( R.layout.recycler_order, viewGroup, false);
         ViewHolderClass viewHolderClass = new ViewHolderClass(view);
         return viewHolderClass;
     }

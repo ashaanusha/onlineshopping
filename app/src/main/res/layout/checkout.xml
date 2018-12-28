@@ -256,7 +256,6 @@
             android:layout_alignParentBottom="true"
             android:background="#4682B4"
             android:text="Place Order Now"
-            android:layout_toLeftOf="@id/signin"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 

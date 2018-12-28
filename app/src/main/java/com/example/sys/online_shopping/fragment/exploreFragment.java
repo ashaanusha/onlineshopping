@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,6 +14,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.Recycleradapter.RecyclerAdapter6activity;
+import com.example.sys.online_shopping.Recycleradapter.ViewPagerAdapter6;
 
 import java.util.Timer;
 import java.util.TimerTask;

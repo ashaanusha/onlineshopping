@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.fragment.Favouritefragment;
+import com.example.sys.online_shopping.fragment.NotificationsFragment;
+import com.example.sys.online_shopping.fragment.Orderfragment;
+import com.example.sys.online_shopping.fragment.Tab_fragment;
+import com.example.sys.online_shopping.fragment.bestsellerfragment;
+import com.example.sys.online_shopping.fragment.cateogryfragment1;
+import com.example.sys.online_shopping.fragment.discountfragment;
+import com.example.sys.online_shopping.fragment.exploreFragment;
 
 public class page5activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

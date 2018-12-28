@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/rl">
 
         <ImageView
             android:layout_width="400dp"
@@ -34,9 +36,13 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rl1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
+      android:layout_below="@id/rl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+      >
 
         <ImageView
             android:id="@+id/img1"
@@ -50,9 +56,53 @@
             android:layout_height="30dp"
             android:layout_toRightOf="@id/img1"
             android:layout_alignParentTop="true"
+            android:text="+4567890358"
+            android:layout_marginLeft="5dp"/>
 
-            android:text="+4567890358" />
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            >
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_watch_later_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/img2"
+            android:layout_alignParentTop="true"
+            android:text="info@exoticperfumes.com"
+            android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:paddingBottom="150dp"
+        android:text="We specialized in exotic perfumes and fragrance,Our products cover range of top product designers in the market and we always will to serve you better" />
+
+
+
+</RelativeLayout>
 
     </RelativeLayout>
 
-</RelativeLayout>
+
+

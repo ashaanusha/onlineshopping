@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,7 +9,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.Recycleradapter.RecyclerAdapter_favourite;
 
 public class Favouritefragment extends Fragment {
     private RecyclerView recyclerView;

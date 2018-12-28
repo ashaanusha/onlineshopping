@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.Recycleradapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.Activity.page5activity;
 
 public class RecyclerAdapter_discountsales  extends RecyclerView.Adapter<RecyclerAdapter_discountsales.ViewHolderClass> {
 

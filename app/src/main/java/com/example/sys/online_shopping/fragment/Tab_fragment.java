@@ -1,4 +1,4 @@
-package com.example.sys.online_shopping;
+package com.example.sys.online_shopping.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.Recycleradapter.TabPagerAdapter;
 
 public class Tab_fragment  extends Fragment {
 
@@ -31,7 +34,7 @@ public class Tab_fragment  extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_tab, container, false);
+        View view = inflater.inflate( R.layout.fragment_tab, container, false);
         mViewPager = view.findViewById(R.id.products_viewPager);
         mTabLayout = view.findViewById(R.id.tabs);
         setUpViewPager();
@@ -73,12 +76,10 @@ public class Tab_fragment  extends Fragment {
 
         TabPagerAdapter adapter = new TabPagerAdapter(getActivity().getSupportFragmentManager());
         adapter.addFrag(new exploreFragment(), "Men");
-        adapter.addFrag(new exploreFragment(), "Women");
+        adapter.addFrag(new bestsellerfragment(), "Women");
         adapter.addFrag(new exploreFragment(), "Kids");
-        adapter.addFrag(new exploreFragment(), "HouseHold");
-        adapter.addFrag(new exploreFragment(), "PremiumLaundry");
-        adapter.addFrag(new exploreFragment(), "Accessories");
-        adapter.addFrag(new exploreFragment(), "ExclusiveBrands");
+        adapter.addFrag(new exploreFragment(), "Casual");
+
         mViewPager.setAdapter(adapter);
 
         // viewPager.setOffscreenPageLimit(-1);

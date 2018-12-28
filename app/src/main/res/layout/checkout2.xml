@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="350dp"
@@ -38,6 +39,59 @@
                 android:src="@drawable/cash_reserves1"
                 android:layout_margin="20dp"/>
         </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"></View>
+        />
 
-</LinearLayout>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup"
+            android:layout_marginTop="20dp"
+          >
+
+            <RadioButton
+                android:id="@+id/radiopYPAL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PAY WITH PAYPAL"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:id="@+id/radiovisa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PAY WITH CREDIT CARD"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:id="@+id/radioCASH"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PAY WITH CASH ON DELIVERY"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:id="@+id/placeordernow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#4682B4"
+        android:text="Place Order Now"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

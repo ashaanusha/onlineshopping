@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,17 +18,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".page5activity"
+            android:name=".Activity.page5activity"
             android:label="@string/title_activity_main6"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".page3activity" />
-        <activity android:name=".page4activity" />
-        <activity android:name="ProfileActivity"/>
-        <activity android:name=".walletactivity"></activity>
-        <activity android:name=".Page7activityfragment"></activity>
-        <activity android:name=".Cartactivity"></activity>
-        <activity android:name=".Checkoutactivity"></activity>
+        <activity android:name=".Activity.MainActivity2" />
+        <activity android:name=".Activity.page3activity" />
+        <activity android:name=".Activity.page4activity" />
+        <activity android:name=".Activity.ProfileActivity"/>
+        <activity android:name=".Activity.walletactivity"></activity>
+        <activity android:name=".fragment.Page7activityfragment"></activity>
+        <activity android:name=".Activity.Cartactivity"></activity>
+        <activity android:name=".Activity.Checkoutactivity"></activity>
+        <activity android:name=".Activity.Checkout2activity"></activity>
     </application>
 
 </manifest>
