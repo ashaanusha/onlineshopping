@@ -1,6 +1,7 @@
 package com.example.sys.online_shopping.Recycleradapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,6 +11,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.sys.online_shopping.R;
+import com.example.sys.online_shopping.fragment.Page7activityfragment;
+import com.example.sys.online_shopping.fragment.exploreFragment;
 
 public class Recycleradapter_product extends RecyclerView.Adapter<Recycleradapter_product.ViewHolderClass> {
     Context context;
@@ -37,7 +40,17 @@ public class Recycleradapter_product extends RecyclerView.Adapter<Recycleradapte
     public void onBindViewHolder(@NonNull ViewHolderClass viewHolderClass, int i) {
         viewHolderClass.imageView.setImageResource( images[i] );
         viewHolderClass.button.setText( button[i] );
+        viewHolderClass.button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /*Intent in = new Intent(context, NewPage.class);
+                context.startActivity(in);*/
+                Intent i=new Intent(context,exploreFragment.class);
+                context.startActivity( i );
+            }
+        });
     }
+
 
     @Override
     public int getItemCount() {

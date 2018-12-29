@@ -11,7 +11,7 @@
 
         <ImageView
             android:layout_width="400dp"
-            android:layout_height="250dp"
+            android:layout_height="260dp"
             android:alpha="0.3"
             android:scaleType="fitXY"
             android:src="@drawable/perfume2" />
@@ -23,7 +23,7 @@
             android:text="Exotic Perfumes"
             android:textSize="30dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp" />
+            android:layout_marginTop="40dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -86,21 +86,39 @@
 
 
     </RelativeLayout>
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-  >
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-       android:paddingBottom="150dp"
-        android:text="We specialized in exotic perfumes and fragrance,Our products cover range of top product designers in the market and we always will to serve you better" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="20dp"
+            android:text="We specialized in exotic perfumes and fragrance,Our products cover range of top product" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
 
-</RelativeLayout>
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="80dp"
+            android:text="We specialized in exotic perfumes and fragrance,Our products cover range of top product designers in the market and we always will to serve you better" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#6495ed"
+            android:padding="3dp"
+            android:text="We open from 9am to 10pm week days and 10am to 11pm weekends" />
+
+        />
+    </RelativeLayout>
 
     </RelativeLayout>
 

@@ -29,6 +29,9 @@ public class exploreFragment extends Fragment {
     private ImageView[] dots;
     RecyclerView recyclerView;
     int[] images = {R.drawable.pf2, R.drawable.perfume2, R.drawable.femalepf1, R.drawable.casualpf, R.drawable.perfume};
+    String[] arr1={"White Linen","One Electric CK","Versace Man","Fine Cologne","Escada"};
+    String[] arr2={"$60","$80","$45","$50","$80","$100"};
+
     ArrayAdapter<String> adapter;
     RecyclerAdapter6activity recycler;
 
@@ -39,7 +42,7 @@ public class exploreFragment extends Fragment {
         ViewPagerAdapter6 viewPagerAdapter = new ViewPagerAdapter6(getActivity());
         RecyclerView recyclerView1 = view.findViewById(R.id.recycler1);
         recyclerView1.setLayoutManager(new GridLayoutManager(getActivity(), 2));
-        RecyclerAdapter6activity recyclerAdapter = new RecyclerAdapter6activity(getActivity(), images);
+        RecyclerAdapter6activity recyclerAdapter = new RecyclerAdapter6activity(getActivity(), images,arr1,arr2);
         recyclerView1.setAdapter(recyclerAdapter);
         introPager.setAdapter(viewPagerAdapter);
 

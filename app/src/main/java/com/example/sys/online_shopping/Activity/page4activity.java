@@ -18,7 +18,7 @@ public class page4activity extends AppCompatActivity {
             signup.setOnClickListener( new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent i = new Intent( page4activity.this, page3activity.class );
+                    Intent i = new Intent( page4activity.this, page5activity.class );
                     startActivity( i );
                 }
             } );

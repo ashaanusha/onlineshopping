@@ -7,8 +7,9 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:scaleType="fitXY"
+        android:scaleType="fitCenter"
         android:src="@drawable/pf3"
+        android:background="@drawable/round"
         android:padding="10dp"/>
 
     <android.support.v7.widget.RecyclerView

@@ -20,6 +20,8 @@ public class bestsellerfragment extends Fragment {
 
     RecyclerView recyclerView;
     int[] images = {R.drawable.casualpf, R.drawable.pf5, R.drawable.femalepf1,R.drawable.perfume2,R.drawable.pf4,R.drawable.pf7};
+    String[] arr1={"White Linen","One Electric CK","Versace Man","Fine Cologne","Escada","Black Opium"};
+    String[] arr2={"$60","$80","$45","$50","$80","$100"};
 
     ArrayAdapter<String> adapter;
     Recycleradapter_product recycler;
@@ -27,7 +29,7 @@ public class bestsellerfragment extends Fragment {
         View view = inflater.inflate( R.layout.best_sellers, container, false );
         RecyclerView recyclerView1 = view.findViewById( R.id.recycler3 );
         recyclerView1.setLayoutManager( new GridLayoutManager( getActivity(),2 ) );
-        Recycleradapter_seller recyclerAdapter = new Recycleradapter_seller( getActivity(), images );
+        Recycleradapter_seller recyclerAdapter = new Recycleradapter_seller( getActivity(), images,arr1,arr2 );
         recyclerView1.setAdapter( recyclerAdapter );
 
         getActivity().setTitle( "Best Sellers" );
