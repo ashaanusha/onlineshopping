@@ -15,6 +15,7 @@ public class NotificationsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate( R.layout.notifications, container, false);
+        getActivity().setTitle("Our Store");
         return view;
 
     }

@@ -32,6 +32,7 @@ public class Cartactivity extends AppCompatActivity
             startActivity(i);
         }
         });
+   getSupportActionBar().setTitle( "Your Cart" );
     }
 
 }

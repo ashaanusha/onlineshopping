@@ -8,24 +8,23 @@ import android.widget.Button;
 
 import com.example.sys.online_shopping.R;
 
-public class Checkoutactivity extends AppCompatActivity
+public class Creditcardactivity extends AppCompatActivity
 
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.checkout );
+        setContentView( R.layout.paywith_creditcard );
+
         Button placeordernow=findViewById(R.id.placeordernow);
         placeordernow.setOnClickListener(new View.OnClickListener(){
-        @Override
-        public void onClick(View v) {
-            Intent i=new Intent(Checkoutactivity.this,Checkout2activity.class);
-            startActivity(i);
-        }
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Creditcardactivity.this,OrderConfirmation.class);
+                startActivity(i);
+            }
         });
-        getSupportActionBar().setTitle( "CheckOut" );
-
+   getSupportActionBar().setTitle( "Pay With CreditCard" );
+        }
     }
-}
-

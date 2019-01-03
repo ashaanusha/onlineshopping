@@ -136,7 +136,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
@@ -163,7 +163,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:orientation="horizontal">
 
         <TextView
@@ -191,7 +191,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:orientation="horizontal">
 
         <TextView
@@ -216,7 +216,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="4dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:background="#000000"></View>
     />
     <LinearLayout

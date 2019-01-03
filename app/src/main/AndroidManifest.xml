@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/AppTheme">
         <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +30,11 @@
         <activity android:name=".Activity.Cartactivity"></activity>
         <activity android:name=".Activity.Checkoutactivity"></activity>
         <activity android:name=".Activity.Checkout2activity"></activity>
+        <activity android:name=".Activity.Paypalactivity"></activity>
+        <activity android:name=".Activity.Creditcardactivity"></activity>
+        <activity android:name=".Activity.Login_with_paypal">
+        </activity>
+        <activity android:name=".Activity.OrderConfirmation"></activity>
     </application>
 
 </manifest>

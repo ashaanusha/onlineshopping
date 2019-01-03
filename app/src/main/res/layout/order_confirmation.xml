@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="ORDER CONFIRMATION"
+        android:textSize="20dp"
+       android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:textColor="#000000" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tick"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Thank you for placing an order with us"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your order will be sent very soon.For any questions or further information about your order,please contact our customer support"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"/>
+    <Button
+        android:id="@+id/continueshopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#4682B4"
+        android:text="CONTINUE SHOPPING"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

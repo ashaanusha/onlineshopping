@@ -4,30 +4,32 @@
     android:layout_height="match_parent"
     android:background="@drawable/perfume2"
     android:layout_gravity="center"
-   android:layout_marginTop="10dp">
+   android:layout_marginTop="8dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <EditText
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round"
             android:hint="NAME"
             android:textColorHint="#000000"
-            android:padding="20dp"
+            android:padding="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:textColor="@color/black"
             android:layout_alignParentRight="true"></EditText>
         <EditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round"
             android:hint="Username"
             android:textColorHint="#000000"
-            android:padding="20dp"
+            android:padding="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
@@ -35,12 +37,13 @@
             android:textColor="@color/black"
            />
         <EditText
+            android:id="@+id/mail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round"
             android:hint="Email"
             android:textColorHint="#000000"
-            android:padding="20dp"
+            android:padding="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
@@ -48,12 +51,13 @@
             android:textColor="@color/black"
             />
         <EditText
+            android:id="@+id/pwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round"
             android:hint="Password"
             android:textColorHint="#000000"
-            android:padding="20dp"
+            android:padding="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
@@ -61,12 +65,13 @@
             android:textColor="@color/black"
             />
         <EditText
+            android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round"
             android:hint="Address"
             android:textColorHint="#000000"
-            android:padding="20dp"
+            android:padding="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
@@ -74,12 +79,13 @@
             android:textColor="@color/black"
             />
         <EditText
+            android:id="@+id/phn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/round"
             android:hint="Phone number"
             android:textColorHint="#000000"
-            android:padding="20dp"
+            android:padding="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
@@ -91,17 +97,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:padding="20dp"
+            android:padding="15dp"
             android:background="#6B8E23"
             android:text="SIGN UP"
             android:textColorHint="#000000"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="25dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="7dp"
             android:text="By signing up you agree to terms of service and privacy policy"
             />
 

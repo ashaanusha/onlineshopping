@@ -51,6 +51,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/radioGroup"
             android:layout_marginTop="20dp"
+            android:buttonTint="@color/your_color"
           >
 
             <RadioButton

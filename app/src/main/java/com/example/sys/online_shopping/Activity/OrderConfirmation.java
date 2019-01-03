@@ -8,24 +8,24 @@ import android.widget.Button;
 
 import com.example.sys.online_shopping.R;
 
-public class Checkoutactivity extends AppCompatActivity
+public class OrderConfirmation extends AppCompatActivity
 
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.checkout );
-        Button placeordernow=findViewById(R.id.placeordernow);
-        placeordernow.setOnClickListener(new View.OnClickListener(){
-        @Override
+        setContentView( R.layout.order_confirmation);
+        Button backtomenu=findViewById(R.id.continueshopping);
+        backtomenu.setOnClickListener(new View.OnClickListener()
+        {  @Override
         public void onClick(View v) {
-            Intent i=new Intent(Checkoutactivity.this,Checkout2activity.class);
+            Intent i=new Intent(OrderConfirmation.this,page5activity.class);
             startActivity(i);
         }
         });
-        getSupportActionBar().setTitle( "CheckOut" );
 
+        getSupportActionBar().setTitle( "Order Confirmation" );
+
+        }
     }
-}
-

@@ -41,6 +41,7 @@ recyclerView=findViewById( R.id.recyclerview );
         Page7Recycleradapter recyclerAdapter = new Page7Recycleradapter( this,images,arr );
         recyclerView.setAdapter( recyclerAdapter );
 
+        getSupportActionBar().setTitle( "White Linen" );
 
     }
 }

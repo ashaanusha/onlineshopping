@@ -63,7 +63,7 @@
     android:layout_marginTop="15dp"
    android:layout_gravity="center"
     android:text="Mock data"
-    android:background="#87ceeb"
+    android:background="#87ceee"
     android:alpha="0.4"
     android:padding="5dp"/>
 </LinearLayout>
